@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?><DEFECTS><DEFECT>
+    <SFA>
+      <FILEPATH>g:\github\cpp\numerical analysis\consoleapplication2\consoleapplication2\</FILEPATH>
+      <FILENAME>polynomial.cpp</FILENAME>
+      <LINE>93</LINE>
+      <COLUMN>2</COLUMN>
+    </SFA>
+    <DEFECTCODE>6292</DEFECTCODE>
+    <DESCRIPTION>Ill-defined for-loop:  counts up from maximum.</DESCRIPTION>
+    <FUNCTION>polynomial::hornerMethod</FUNCTION>
+    <DECORATED>?hornerMethod@polynomial@@QAEXXZ</DECORATED>
+    <FUNCLINE>79</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT></DEFECTS>

@@ -70,7 +70,7 @@ void polynomial::print() {
 
 float polynomial::Eval(float f) {
 	float res = 0;
-	for (int i = 0; i < num; i++) {
+	for (int i = 0; i < degree; i++) {
 		if (term_[i].exp != 0) {
 			res += (term_[i].coef * pow(f, term_[i].exp));
 		}

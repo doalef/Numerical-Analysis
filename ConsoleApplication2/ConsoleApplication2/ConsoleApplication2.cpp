@@ -10,7 +10,11 @@ using namespace std;
 
 int main()
 {
-	polynomial poly(2, 2);
+	int i, j;
+	cout << "enter the length and highest exp:";
+	cin >> i >> j;
+	cout << endl;
+	polynomial poly(i,j);
 	poly.init();
 	//poly.print();
 	poly.hornerMethod();
